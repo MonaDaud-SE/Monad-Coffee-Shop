@@ -168,7 +168,7 @@ h1,h2,h3{
     display: block;
     width: 100%;
 }
-#about .about-content .about-text .item h3{
+#about .about-content .about-text .info h3{
     font-size: 40px;
     text-transform: capitalize;
     margin-bottom: 10px;
@@ -180,10 +180,27 @@ h1,h2,h3{
 }
 /*about end*/
 /*menu start*/
+#menu .heading .buttens .filtter-bt{
+    margin: 0 5px;
+    background-color: var(--light-brown);
+    color: var(--white);
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    transition: all 0.3s;
+
+}
+#menu .heading .buttens .filtter-bt:hover{
+    background-color: var(--dark-grey);
+
+}
+
 #menu .menu-row{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 3rem;
+    margin-top: 50px;
 }
 #menu .menu-row .item img{
     width: 100px;
@@ -218,12 +235,12 @@ h1,h2,h3{
     grid-template-columns: repeat(3,1fr);
     gap: 3rem;
 }
-#testimonials .users-row .item{
+#testimonials .users-row .user{
     background: var(--bg-color);
     text-align: center;
     padding: 30px 0;
 }
-#testimonials .users-row .item img{
+#testimonials .users-row .user img{
     height: 100px;
     width: 100px;
     object-fit: cover;
@@ -234,12 +251,12 @@ h1,h2,h3{
     box-shadow: 3px 4px  rgba(0, 0, 0,0.5);
     
 }
-#testimonials .users-row .item h3{
+#testimonials .users-row .user h3{
     margin-bottom: 10px;
     font-size: 25px;
     text-transform: uppercase;
 }
-#testimonials .users-row .item p{
+#testimonials .users-row .user p{
     font-size: 18px;
     font-weight: 500;
     

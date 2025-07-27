@@ -57,11 +57,11 @@
                     <div class="about-text">
                         <h3> <span class="brown">cafiene monad</span> about info</h3>
                         <p>We are a company specialized in offering various types of coffee, specialty coffee, and hot and cold beverages</p>
-                        <div class="item">
+                        <div class="info">
                             <h3>Our vision</h3>
                             <p>To be a symbol in the world of coffee manufacturing</p>
                         </div>
-                        <div class="item">
+                        <div class="info">
                             <h3>Our values</h3>
                             <p>professionalism - quality - innovation</p>
                         </div>
@@ -76,21 +76,16 @@
                 <div class="heading">
                     
                     <h3>our menu</h3>
+                    <div class="buttens">
+                        <button class="filtter-bt" kind="all">All</button>
+                        <button class="filtter-bt" kind="hot">Hot</button>
+                        <button class="filtter-bt" kind="iced">Iced</button>
+                    </div>
                 </div>
                 <div class="menu-row">
                     <div class="col">
-                        <div class="item">
-                            <img src="images/Iced-Americano.webp" alt="Iced Americano">
-                            <div class="details">
-                                <h3>Iced Americano</h3>
-                                <p>Espresso shots are topped with water to produce a light layer of crema, then served over ice.</p>
-                                
-                            </div>
-                            <div class="price">
-                                <p class="brown">19.34</p>
-                            </div>
-                        </div>
-                        <div class="item">
+                        
+                        <div class="item" kind="iced">
                             <img src="images/iced-spanish-latte.png" alt="iced spanish latte">
                             <div class="details">
                                 <h3>iced spanish latte</h3>
@@ -101,54 +96,17 @@
                                     <p class="brown">22.34</p>
                             </div>
                         </div>
-                        <div class="item">
-                            <img src="images/ice_milk-.png" alt="iced Caramel Macchiato">
-                            <div class="details">
-                                <h3>iced Caramel Macchiato</h3>
-                                <p>Freshly steamed milk with vanilla-flavoured syrup, marked with espresso and finished with caramel sauce</p>
-                                
-                            </div>
-                            <div class="price">
-                                    <p class="brown">20.34</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/ice_matcha-.png" alt="iced matcha">
-                            <div class="details">
-                                <h3>Iced Matcha Latte</h3>
-                                <p>Matcha green tea is mixed with milk and served over ice.</p>
-                                
-                            </div>
-                            <div class="price">
-                                    <p class="brown">19.34</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="item">
+                        <div class="item" kind="hot">
                             <img src="images/americano.png" alt="Americano">
-                            
                             <div class="details">
                                 <h3>Americano</h3>
                                 <p>Espresso shots are topped with hot water to produce a light layer of crema.</p>
-                            
                             </div>
                             <div class="price">
                                 <p class="brown">19.34</p>
                             </div>
                         </div>
-                        <div class="item">
-                            <img src="images/cortado.png" alt="Cortado">
-                            <div class="details">
-                                <h3>Cortado</h3>
-                                <p>combines three ristretto shots of Starbucks® Blonde Espresso to give a smoother, sweeter, and richer espresso profile, with perfectly steamed whole milk for a velvety texture and balanced flavor</p>
-                                
-                            </div>
-                            <div class="price">
-                                    <p class="brown">18.34</p>
-                                </div>
-                        </div>
-                        <div class="item">
+                        <div class="item" kind="hot">
                             <img src="images/espresso.png" alt="">
                             <div class="details">
                                 <h3>Hot Double Shot</h3>
@@ -159,12 +117,60 @@
                                     <p class="brown">19.34</p>
                                 </div>
                         </div>
-                        <div class="item">
+                        <div class="item" kind="iced">
+                            <img src="images/ice_milk-.png" alt="iced Caramel Macchiato">
+                            <div class="details">
+                                <h3>iced Caramel Macchiato</h3>
+                                <p>Freshly steamed milk with vanilla-flavoured syrup, marked with espresso and finished with caramel sauce</p>
+                                
+                            </div>
+                            <div class="price">
+                                    <p class="brown">20.34</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col">
+                        <div class="item" kind="iced">
+                            <img src="images/Iced-Americano.webp" alt="Iced Americano">
+                            <div class="details" >
+                                <h3>Iced Americano</h3>
+                                <p>Espresso shots are topped with water to produce a light layer of crema, then served over ice.</p>
+                                
+                            </div>
+                            <div class="price">
+                                <p class="brown">19.34</p>
+                            </div>
+                        </div>
+                        
+                        <div class="item" kind="hot">
+                            <img src="images/cortado.png" alt="Cortado">
+                            <div class="details">
+                                <h3>Cortado</h3>
+                                <p>combines three ristretto shots of Starbucks® Blonde Espresso to give a smoother, sweeter, and richer espresso profile, with perfectly steamed whole milk for a velvety texture and balanced flavor</p>
+                                
+                            </div>
+                            <div class="price">
+                                    <p class="brown">18.34</p>
+                                </div>
+                        </div>
+                        <div class="item" kind="iced">
+                            <img src="images/ice_matcha-.png" alt="iced matcha">
+                            <div class="details">
+                                <h3>Iced Matcha Latte</h3>
+                                <p>Matcha green tea is mixed with milk and served over ice.</p>
+                                
+                            </div>
+                            <div class="price">
+                                    <p class="brown">19.34</p>
+                            </div>
+                        </div>
+                        
+                        <div class="item" kind="hot">
                             <img src="images/macchiato.png" alt="Caramel Macchiato">
                             <div class="details">
                                 <h3>Caramel Macchiato</h3>
                                 <p>Freshly steamed milk with vanilla-flavoured syrup, marked with espresso and finished with caramel sauce.</p>
-                                
                             </div>
                             <div class="price">
                                     <p class="brown">19.34</p>
@@ -182,17 +188,17 @@
                 <h3>What our clients says</h3>
             </div>
             <div class="users-row">
-                <div class="item">
+                <div class="user">
                     <img src="images/person1.jpg" alt="">
                     <h3>soltan yahya</h3>
                     <p>Each cup is a journey to the highlands. The flavor is vibrant, authentic, and unforgettable.</p>
                 </div>
-                <div class="item">
+                <div class="user">
                     <img src="images/person2.jpg" alt="">
                     <h3>wiliam adam</h3>
                     <p>The experience of tasting their coffee is like savoring a  Absolutely remarkable.</p>
                 </div>
-                <div class="item">
+                <div class="user">
                     <img src="images/person3.jpg" alt="">
                     <h3>ibraham jon</h3>
                     <p>The level of craftsmanship in every batch is evident. It's like every cup tells a story of tradition and passion</p>
@@ -276,5 +282,7 @@
         </div>
     </footer>
     <!--footer end-->
+    <script type="module" src="main.js"></script>
+    <script type="module" src="filtter.js"></script>
 </body>
 </html>
