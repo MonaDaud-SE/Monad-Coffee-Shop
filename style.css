@@ -226,21 +226,21 @@ h1,h2,h3{
     border-left: solid 1px var(--border-color);
 }
 /*menu end*/
-/*testimonials start*/
-#testimonials{
+/*testmonils start*/
+#testmonils{
     background: var(--bg-sec);
 }
-#testimonials .users-row{
+#testmonils .users-row{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 3rem;
 }
-#testimonials .users-row .user{
+#testmonils .users-row .user{
     background: var(--bg-color);
     text-align: center;
     padding: 30px 0;
 }
-#testimonials .users-row .user img{
+#testmonils .users-row .user img{
     height: 100px;
     width: 100px;
     object-fit: cover;
@@ -251,17 +251,17 @@ h1,h2,h3{
     box-shadow: 3px 4px  rgba(0, 0, 0,0.5);
     
 }
-#testimonials .users-row .user h3{
+#testmonils .users-row .user h3{
     margin-bottom: 10px;
     font-size: 25px;
     text-transform: uppercase;
 }
-#testimonials .users-row .user p{
+#testmonils .users-row .user p{
     font-size: 18px;
     font-weight: 500;
     
 }
-#testimonials .heading h3{
+#testmonils .heading h3{
     margin-bottom: 80px;
 }
 /*testimonials end*/
@@ -377,14 +377,14 @@ h1,h2,h3{
         margin: 0 20px;
         margin-top: 30px;
     }
-    #testimonials .users-row .item img{
+    #testmonils .users-row .item img{
         width: 70px;
         height: 70px;
     }
-    #testimonials .users-row .item h3{
+    #testmonils .users-row .item h3{
         font-size: 20px;
     }
-    #testimonials .users-row .item p{
+    #testmonils .users-row .item p{
         font-size: 15px;
         padding: 0 10px;
     }
@@ -416,16 +416,19 @@ h1,h2,h3{
         margin-left:5px ;
         
     }
+    #menu .menu-row{
+        margin-top: 30px;
+    }
     #about .about-content{
         display: block;
     }
     #about .about-content .about-text p{
         font-size: 15px;
     }
-    #testimonials .users-row .item h3{
+    #testmonils .users-row .item h3{
         font-size: 15px;
     }
-    #testimonials .users-row .item p{
+    #testmonils .users-row .item p{
         font-size: 10px;
         font-weight: 700;
         letter-spacing: 1px;
