@@ -375,6 +375,7 @@ h1,h2,h3{
     #menu .menu-row{
         display: block;
         margin: 0 20px;
+        margin-top: 30px;
     }
     #testimonials .users-row .item img{
         width: 70px;
